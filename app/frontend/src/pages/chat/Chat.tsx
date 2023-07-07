@@ -306,7 +306,7 @@ const Chat = () => {
                     <div className="container">
                         <fieldset>
                             <legend>Please select index of your group</legend>
-                            <p>
+                            {/* <p>
                                 <input
                                     type="radio"
                                     name="index"
@@ -360,7 +360,7 @@ const Chat = () => {
                                     checked={selectedIndex == "Group 5"}
                                 />
                                 <label htmlFor="Group 5">Group 5</label>
-                            </p>
+                            </p> */}
                             <p>
                                 <input
                                     type="radio"
